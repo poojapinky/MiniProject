@@ -99,7 +99,7 @@ public class AccountServiceTest {
 	 		
 	 	}
 	 }
-	 @Test
+	/* @Test
 	 public void testCreateAccountForEmailId(){
 	 	Account ac=new Account();
 	 	ac.setMobileNo("1234330988");
@@ -111,8 +111,8 @@ public class AccountServiceTest {
 	 	}catch(AccountException e){
 	 		assertEquals("Enter valid emailid",e.getMessage());
 	 		
-	 	}
-	 	}
+	 	}*/
+	 
 	/* @Test
 	 public void testCreateAccountForEmailId1(){
 	 	Account ac=new Account();
@@ -128,7 +128,7 @@ public class AccountServiceTest {
 	 		
 	 	}
 	 	}*/
-	 @Test
+	
 	 public void testCreateAccount(){
 	 	Account ac=new Account();
 	 	ac.setMobileNo("9834330988");
